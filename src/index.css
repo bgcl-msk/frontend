@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  #login:hover{
+    background-color:  #1D4771;
+    color: white;
+  }
+  #get_started:hover{
+    background-color: white;
+    color: #010140;
+    border: 1px solid #1D4771;
+  }
+  #contact:hover{
+    background-color: #010140;
+    color: white;
+    border: 2px solid white;
+  }
+  #container{
+    background-image: url("./assets/image 12.png");
+    color: white;
+    background-size: cover;
+  }
+
+
+  /* RESPONSIVE DESIGN */
+  @media screen and (max-width:985px){
+    
+    .msk_simp_logo{
+      display: none;
+    }
+    .msk_simp_words{
+      text-align: left;
+    }
+    .feature-card{
+      grid-template-columns: auto auto;
+      padding: 10px;
+      width: 50rem;
+    }
+    .FAQ_card, .customer_card{
+      grid-template-columns: auto;
+      padding: 10px;
+      width: 70%;
+    }
+    #footer_div_two{
+      flex-wrap: wrap;
+    }
+  
+  }
+  @media screen and (max-width:801px){
+    .feature-card{
+      grid-template-columns: auto;
+      width: 28rem;
+    }
+    #footer_div_one{
+      flex-wrap: wrap;
+    }
+   .landing_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  }
