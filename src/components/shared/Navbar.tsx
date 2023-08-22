@@ -11,7 +11,7 @@ export const Navbar = () => {
         <h1 className='text-3xl text-blue_color'><b>Mystorekeeper</b></h1>
     </div>
     <div className={`nav-links mr-[400px] mt-2 md:block ${open ? 'flex':'hidden'}`}>
-        <ul className='flex cursor-pointer'>
+        <ul className='flex flex-col md:flex-row cursor-pointer'>
             {
                 navlinks.map((navlink)=>(
                 <li className='px-[20px] hover:text-amber-400 duration-500 font-bold'>{navlink.title}</li>
