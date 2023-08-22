@@ -13,7 +13,7 @@ export const SomeFeatures = () => {
         <div className="grid gap-[2rem] w-[60rem] grid-cols-3 m-auto feature-card">
           {Application_Features.map((Application_Feature)=> (
                  <div className="shadow-md w-full p-5 hover:border-2 border-box_color">
-                 <div className="my-2 w-14 h-14 border rounded-[50%] flex items-center justify-center bg-box_color text-white">
+                 <div className="my-2 w-14 h-14 border rounded-[50%] flex items-center justify-center bg-blue_color text-white">
                   <img className="p-2" src={Application_Feature.icon}></img>
                  </div>
                  <h1 className="text-box_color"><b>{Application_Feature.title}</b></h1>
