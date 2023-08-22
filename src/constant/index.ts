@@ -221,5 +221,21 @@ const navlinks = [
         id:"contact",
     },
 ];
+const Testimonies = [
+    {
+        words:"I've been using this software to manage my store's inventory, and the results have been incredible. It's like having a virtual assistant that keeps everything organized and easily accessible. From keeping track of stock levels to generating reports, this software has streamlined my business operations and saved me valuable time. Highly recommended!",
+        image:"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        name:"Angela Wo",
+        position:"CEO",
+        company_name:"German Star",
+    },
+    {
+        words:"As a store owner, staying on top of inventory has always been a challenge. But ever since I started using this software, managing and tracking items has become a breeze. The user-friendly interface makes it simple to add, edit, and monitor products. I love how I can set up automatic alerts for low-stock items and easily generate detailed reports. This software has truly revolutionized the way I run my store.",
+        image:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        name:"Dante Ho",
+        position:"CEO",
+        company_name:"German Star",
+    }
+]
 
-export{FAQs, Pricing, Application_Features, KeepingTracks, navlinks, slides};
+export{FAQs, Pricing, Application_Features, KeepingTracks, navlinks, slides, Testimonies};
