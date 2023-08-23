@@ -10,7 +10,7 @@ export const PricingPage = () => {
             Simple, easy pricing plans <br></br> for the application
         </p>
         <>
-          <div id="pricing_card" className="grid gap-[1rem] grid-cols-3 m-auto feature-card text-left">
+          <div className="grid gap-[1rem] grid-cols-3 m-auto feature-card text-left">
             {Pricing.map((Pricing) => (
               <div className="w-[22rem] h-full bg-white border rounded-lg px-4 py-5 hover:border-amber-400 hover:border-1 m-auto">
                 <p>{Pricing.title}</p>

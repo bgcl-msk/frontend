@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { useState } from "react"
 import { msk_logo } from "../../assets"
 import { navlinks } from "../../constant";
@@ -17,7 +18,7 @@ export const Navbar = () => {
                 <li className='px-[20px] hover:text-amber-400 duration-500 font-bold'><a href={`#${navlink.id}`}>{navlink.title}</a></li>
                 ))
             }
-            
+            <Link to='/about' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>About</Link>
         </ul>
     </div>
     <div className={`px-4 mt-2 nav-btn md:flex ${open ? 'flex':'hidden'}`}>
