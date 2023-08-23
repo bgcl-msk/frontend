@@ -14,7 +14,7 @@ export const Navbar = () => {
         <ul className='flex flex-col md:flex-row cursor-pointer'>
             {
                 navlinks.map((navlink)=>(
-                <li className='px-[20px] hover:text-amber-400 duration-500 font-bold'>{navlink.title}</li>
+                <li className='px-[20px] hover:text-amber-400 duration-500 font-bold'><a href={`#${navlink.id}`}>{navlink.title}</a></li>
                 ))
             }
             
