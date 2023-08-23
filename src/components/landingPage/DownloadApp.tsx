@@ -7,7 +7,7 @@ export const DownloadApp = () => {
     <div className='flex-1 m-auto msk_simp_words'>
         <div className="md:w-[70%] md:ml-[350px]">
     <p className='text-4xl my-6'><b>Download Our App for Free</b></p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, incidunt. Nam iure enim aliquid molestiae asperiores neque,alias inventore recusandae voluptas unde voluptates culpa vel magni sapiente perspiciatis earum </p>
+    <p>You can download the app for your desktop, android and ios </p>
     <div className='flex justify-center align-middle mt-4 p-2'>
         <form className='landing_form'> 
             <input type='text' placeholder='Enter your email' className='w-96 h-16 pl-2 text-box_color rounded-lg mb-2'></input>
