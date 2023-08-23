@@ -4,15 +4,12 @@ import { FAQs } from "../../constant"
 export const FrequentlyAskedQuestions = () => {
   return (
     <>
-    <div className="text-center p-10">
-        <h1 className="text-3xl">
+    <div className="text-center pt-[8rem]" id="faq">
+        <h1 className="text-3xl ">
           <b>Frequently asked questions</b>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus sit debitis commodi, fugiat eos dolore et corporis,
-          <br></br> ducimus ad nulla in blanditiis quasi officiis mollitia
-          incidunt iusto, minima reiciendis neque.
+        <p className="mb-2">
+          Here are some frequently asked questions.
         </p>
       </div>
       <div className="grid gap-[2rem] grid-cols-2 w-1/2 m-auto FAQ_card">

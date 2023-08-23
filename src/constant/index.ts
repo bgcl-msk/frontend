@@ -236,6 +236,49 @@ const Testimonies = [
         position:"CEO",
         company_name:"German Star",
     }
-]
+];
+const About_content= [
 
-export{FAQs, Pricing, Application_Features, KeepingTracks, navlinks, slides, Testimonies};
+    {
+        image:"",
+        title:"Mission",
+        words:"Our mission is to provide a centralized place for organizations ranging from smaller to larger ones to efficiently manage their businesses without worrying about operational overhead.",
+    },
+    {
+        image:"",
+        title:"Reliable Support",
+        words:"We stand by our clients every step of the way. Our responsive customer support ensures that our clients have a reliable partner to assist them whenever they need assistance or guidance.",
+    },
+    {
+        image:"",
+        title:"Continuous Learning",
+        words:"We are on a journey of continuous learning and improvement. We actively seek feedback from our clients and use it to enhance our system, adapting to evolving business needs.",
+    },
+    {
+        image:"",
+        title:"Customer-Centric Excellence",
+        words:"We prioritize the needs and satisfaction of our customers above all else. Our shop management system is designed with the user experience in mind, ensuring efficiency, convenience, and a seamless shopping process.",
+    },
+    {
+        image:"",
+        title:"Innovation in Simplification",
+        words:"We continuously explore innovative ways to simplify shop management for our clients. Our platform leverages cutting-edge technology to streamline inventory management, sales tracking, and customer interactions.",
+    },
+    {
+        image:"",
+        title:"Transparent Integrity",
+        words:"We conduct business with utmost honesty and transparency.Our commitment to integrity means that our customers can trust us to provide accurate data, fair pricing, and reliable support.",
+    },
+    {
+        image:"",
+        title:"Collaborative Growth",
+        words:"We believe in the power of collaboration. We work closely with our clients to understand their unique needs and adapt to our system to help their businesses flourish",
+    },
+    {
+        image:"",
+        title:"Empowering Knowledge",
+        words:"We empower shop owners with knowledge. Our system provides insights and analytics that enable data-driven decision-making, helping our clients make informed choices to drive success",
+    },
+];
+
+export{FAQs, Pricing, Application_Features, KeepingTracks, navlinks, slides, Testimonies, About_content};
