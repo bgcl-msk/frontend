@@ -4,7 +4,7 @@ import { greentick } from "../../assets"
 export const PricingPage = () => {
   return (
     <>
-    <div className="flex justify-center p-[4rem] text-center bg-navbar_bg">
+    <div className="flex justify-center p-[8rem] text-center bg-navbar_bg" id="pricing">
       <div>
         <p className="text-3xl my-3 font-bold pb-2">
             Simple, easy pricing plans <br></br> for the application
