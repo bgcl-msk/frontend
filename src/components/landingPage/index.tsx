@@ -1,3 +1,5 @@
+import { Footer } from "../shared/Footer"
+import { Navbar } from "../shared/Navbar"
 import { Carousel } from "./Carousel"
 import { CustomerTestimonials } from "./CustomerTestimonials"
 import { DownloadApp } from "./DownloadApp"
@@ -12,6 +14,7 @@ import { SomeFeatures } from "./SomeFeatures"
 export const LandingPage = () => {
   return (
     <div>
+      <Navbar />
         <Carousel />
         <OurNumbers />
         <SomeFeatures />
@@ -21,6 +24,7 @@ export const LandingPage = () => {
         <CustomerTestimonials />
         <DownloadApp />
         <FrequentlyAskedQuestions />
+        <Footer />
     </div>
   )
 }
