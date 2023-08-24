@@ -59,7 +59,7 @@
   @media screen and (max-width:801px){
     .feature-card{
       grid-template-columns: auto;
-      width: 28rem;
+      width: 23rem;
     }
     #footer_div_one{
       flex-wrap: wrap;
@@ -68,5 +68,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
+  }
+  #vid_tutorial{
+    grid-template-columns: auto;
+  }
   }
