@@ -19,6 +19,7 @@ import useroctagon from "./useroctagon.png";
 import inventory from "./inventory.png";
 import greentick from "./Tick Square.png";
 import bluetick from "./check-circle.png";
+import contact from "./contact.png"
 
 export {msk_logo,
      laptop, iphone, 
@@ -26,6 +27,7 @@ export {msk_logo,
      play_store, app_store, 
      carousel1,  
      carousel2,
+     contact,
      carousel3,
      carousel4,
      greentick,
