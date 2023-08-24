@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { slides } from '../../constant';
 
@@ -19,7 +19,15 @@ export const Carousel = () => {
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
       };
+      useEffect(() => {
+        // Auto-slide every 5 seconds
+        const interval = setInterval(nextSlide, 5000);
     
+        // Clean up the interval when the component unmounts or when currentIndex changes (to reset the timer)
+        return () => {
+          clearInterval(interval);
+        };
+      }, [currentIndex]);
 
   return (
     <>

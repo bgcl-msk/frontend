@@ -191,11 +191,7 @@ const Application_Features = [
 ];
 
 const navlinks = [
-    {
-        title:"Store",
-        link:"/store",
-        id:"store",
-    },
+   
     {
         title:"Feature",
         link:"/feature",
@@ -211,11 +207,7 @@ const navlinks = [
         link:"/faq",
         id:"faq",
     },
-    {
-        title:"Contact",
-        link:"/contact",
-        id:"",
-    },
+  
 ];
 const Testimonies = [
     {
