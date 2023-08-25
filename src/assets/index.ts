@@ -21,9 +21,11 @@ import greentick from "./Tick Square.png";
 import bluetick from "./check-circle.png";
 import contact from "./contact.png";
 import magnify from "./magnify.png";
+import login_icon from "./login_icon.png"
 
 export {msk_logo,
      laptop, iphone, 
+     login_icon,
      msk_mobile_phone, 
      play_store, app_store, 
      carousel1,  
