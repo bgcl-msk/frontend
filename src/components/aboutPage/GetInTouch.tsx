@@ -21,7 +21,7 @@ export const GetInTouch = () => {
             <div>
                 <div className="text-blue_color  mb-4">
                 <p className="font-bold">Phone</p>
-                <p>+2335484338</p>
+                <p>+233548433878</p>
                 </div>
                 <div className="text-blue_color  mb-4">
                 <p className="font-bold">Email</p>

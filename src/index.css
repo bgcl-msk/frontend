@@ -30,6 +30,16 @@
     color: white;
     background-size: cover;
   }
+  #tut{
+    background-image: url("./assets/tutorial_hero.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+  }
+  #tut1{
+    background-color: #0101409f;
+    height: 500px;
+  }
 
 
   /* RESPONSIVE DESIGN */
