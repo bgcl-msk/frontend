@@ -6,7 +6,7 @@ import { Input } from "../shared/Input"
 export const SignUpindex = () => {
   return (
 <>
-<div className="w-full border h-[965px] flex justify-center items-center px-32">
+<div className="w-full border h-[965px] flex justify-center items-center pl-32">
         <div>
           <img src={signup} className="w-[500px]"></img>
         </div>
@@ -17,7 +17,7 @@ export const SignUpindex = () => {
             
             <div className="w-[450px]">
             <Input style={{width:"100%"}} placeholder="Full Name" type="text"   required/>
-            <Input style={{width:"100%"}} placeholder="Date of Birth" type="text" required/>
+            <Input style={{width:"100%"}} placeholder="Date of Birth" type="date" required/>
             <Input style={{width:"100%"}} placeholder="Gender" type="text" required/>
             </div>
 
