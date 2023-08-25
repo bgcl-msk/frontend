@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom"
 export const Footer = () => {
   return (
     <div className='bg-box_color h-fit p-10 text-white'>
@@ -8,7 +8,9 @@ export const Footer = () => {
             <h3 className='text-3xl'>Start your 30 days free <br></br>trail today!</h3>
         </div>
         <div id='contact' className='h-fit px-4 p-2 cursor-pointer bg-white text-box_color'>
-            <p>Contact Us</p>         
+            <p>
+            <Link to='/contact'>Contact Us</Link>
+                </p>         
         </div>
     </div>
     <hr></hr>

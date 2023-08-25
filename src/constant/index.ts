@@ -268,5 +268,31 @@ const About_content= [
         words:"We empower shop owners with knowledge. Our system provides insights and analytics that enable data-driven decision-making, helping our clients make informed choices to drive success",
     },
 ];
+const VideoTutorial = [
+    {
+        title:"Introduction",
+        video_link:"",
+    },
+    {
+        title:"About",
+        video_link:"",
+    },
+    {
+        title:"How to go around",
+        video_link:"",
+    },
+    {
+        title:"Venture",
+        video_link:"",
+    },
+    {
+        title:"Things to do",
+        video_link:"",
+    },
+    {
+        title:"Do give up",
+        video_link:"",
+    },
+];
 
-export{FAQs, Pricing, Application_Features, KeepingTracks, navlinks, slides, Testimonies, About_content};
+export{FAQs,VideoTutorial, Pricing, Application_Features, KeepingTracks, navlinks, slides, Testimonies, About_content};

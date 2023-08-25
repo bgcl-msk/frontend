@@ -11,6 +11,7 @@ export default {
         "navbar_bg": "#F3F9FD",
         "blue_color":"#1D4771",
         "lightblue_color":"#007AFF",
+        "input_bg":"#D9D9D999"
       }
     },
   },
