@@ -1,6 +1,6 @@
 import { collaborative, continuous, customer, empowering, innovation, missions, reliable, transparent } from "../../assets/about-images"
 import { Footer } from "../shared/Footer"
-import { Navbar } from "../shared/Navbar"
+import { Navbar_two } from "../shared/Navbar_two"
 import { GetInTouch } from "./GetInTouch"
 import { SectionDiv } from "./SectionDiv"
 import { SectionImg } from "./SectionImg"
@@ -9,7 +9,7 @@ import 'animate.css'
 export const AboutIndex = () => {
   return (
     <>
-    <Navbar />
+    <Navbar_two />
     <div className="w-[full] h-[fit] text-center">
         <h1 className="text-3xl font-bold p-2">About</h1>
 

@@ -96,7 +96,7 @@ const Pricing = [
             "Advanced logging",
             "Shared Infrastructure",
         ],
-        btn_words:"Choose Plan",
+        btn_words:"Start Free Trail",
     },
     {
         title: "Enterprise",
@@ -113,7 +113,7 @@ const Pricing = [
             "Advanced logging",
             "Dedicated Infrastructure",
         ],
-        btn_words:"Choose Plan",
+        btn_words:"Contact Us",
     },
 ];
 

@@ -83,3 +83,7 @@
     grid-template-columns: auto;
   }
   }
+
+  #home_icon:hover{
+     color: #010140;
+  }
