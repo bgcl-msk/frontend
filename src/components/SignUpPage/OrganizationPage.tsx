@@ -7,7 +7,7 @@ import { Input } from "../shared/Input"
 export const OrganizationPage = () => {
   return (
   <>
-  <div className="w-full border h-[965px] flex justify-center items-center px-32">
+  <div className="w-full border h-[965px] flex justify-center items-center pl-32">
         <div>
           <img src={signup} className="w-[500px]"></img>
         </div>
@@ -27,7 +27,10 @@ export const OrganizationPage = () => {
             <div className="text-left w-[450px] cursor-pointer">
             <small><i>By signing up, You are agree to our <u className="text-blue-600">Terms & Conditions</u></i></small><br></br>
             </div>
-            <div className="flex justify-end mt-6 w-[450px]">
+            <div className="flex justify-between mt-6 w-[450px]">
+              <div className="rounded-[50%] w-[45px] h-[45px] bg-blue_color text-white flex justify-center items-center cursor-pointer">
+             <Link to='/signup'><i className="fa-sharp fa-solid fa-arrow-left"></i> </Link>  
+              </div>
               <button className="bg-blue_color text-white px-8 py-3 rounded-md flex"><img src={signup_icon} className="mr-2"></img>Sign In</button>
             </div>
             <div className="text-right w-[450px] mt-4">

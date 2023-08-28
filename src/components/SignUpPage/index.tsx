@@ -12,6 +12,9 @@ export const SignUpindex = () => {
         </div>
         <div className="flex-1 p-2 bg-login_bg h-full">
           <div className="flex flex-col justify-center items-center h-full">
+          <div className="my-4 cursor-pointer text-blue_color text-2xl">
+             <Link to='/'><i id="home_icon" className="fa-solid fa-house"></i></Link> 
+            </div>
             <img src={msk_logo} className="w-[70px] mb-[20px]"></img>
             <h1 className="text-2xl font-semibold text-blue_color mb-[30px]">Personal Details</h1>
             

@@ -9,6 +9,9 @@ import { SignUpindex } from './components/SignUpPage';
 import { OrganizationPage } from './components/SignUpPage/OrganizationPage';
 import { ForgotPasswordIndex } from './components/ForgotPasswordPage';
 import { PasswordOTP } from './components/ForgotPasswordPage/PasswordOTP';
+import { NewPassword } from './components/ForgotPasswordPage/NewPassword';
+import { Passwordchanged } from './components/ForgotPasswordPage/Passwordchanged';
+import { ChangePasswordAfterLogin } from './components/loginPage/ChangePasswordAfterLogin';
 
 function App() {
   
@@ -26,6 +29,9 @@ function App() {
       <Route path='/signup-next' element={<OrganizationPage />}/>
       <Route path='/forgotpassword' element={<ForgotPasswordIndex />}/>
       <Route path='/passwordotp' element={<PasswordOTP />}/>
+      <Route path='/newpassword' element={<NewPassword />}/>
+      <Route path='/passwordchanged' element={<Passwordchanged />}/>
+      <Route path='/changepassword' element={<ChangePasswordAfterLogin />}/>
     </Routes>
     </BrowserRouter>
     </>

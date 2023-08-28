@@ -19,14 +19,17 @@ export const PasswordOTP = () => {
             </div>
             <h1 className="text-4xl font-bold mb-[50px]">OTP CODE</h1>
             <img src={otp} className="mb-4"></img>
-            <p className="mb-4">For your two factor authentication, a code has been sent to your email</p>
+            <p className="mb-4 w-[400px] text-center">For your two factor authentication, a code has been sent to your email</p>
             <p className="font-bold">( example123@gmail.com )</p>
             <div className="w-[450px] mt-5">
             <Input style={{width:"100%", border:"none"}} placeholder="Enter OTP Code" type="text"  required/>
              </div>
 
-            <div className="flex justify-center mt-6 w-[450px] ">
-             <Link to='/passwordotp'><button className="bg-blue_color text-white px-48 py-3 rounded-md flex w-[450px] ">Submit</button></Link> 
+            <div className="flex justify-between mt-6 w-[450px] ">
+            <div className="rounded-[50%] w-[45px] h-[45px] bg-blue_color text-white flex justify-center items-center cursor-pointer">
+             <Link to='/forgotpassword'><i className="fa-sharp fa-solid fa-arrow-left"></i> </Link>  
+              </div>
+             <Link to='/newpassword'><button className="bg-blue_color text-white px-12 py-3 rounded-md flex ">Submit</button></Link> 
             </div>
             </div> 
           <div>
