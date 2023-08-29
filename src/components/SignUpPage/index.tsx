@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { msk_logo } from "../../assets"
-import { signup } from "../../assets/login-images"
+import { ellipse1, ellipse2, ellipse3, ellipse4, ellipse5, ellipse6, signup } from "../../assets/login-images"
 import { Input } from "../shared/Input"
 import { SetStateAction, useState } from "react"
 
@@ -17,7 +17,13 @@ export const SignUpindex = () => {
         <div className="hidden md:block">
           <img src={signup} className="w-[500px]"></img>
         </div>
-        <div className="flex-1 p-2 bg-login_bg h-full w-full">
+        <div className="flex-1 p-2 bg-login_bg h-full w-full relative">
+        <div className="absolute "><img src={ellipse1}></img></div>
+        <div className="absolute top-[69%] left-[20%]"><img src={ellipse2}></img></div>
+        <div className="absolute top-[30%] "><img src={ellipse3}></img></div>
+        <div className="absolute right-0 bottom-[10%]"><img src={ellipse4}></img></div>
+        <div className="absolute right-0"><img src={ellipse5}></img></div>
+        <div className="hidden md:block absolute bottom-0"><img src={ellipse6}></img></div>
           <div className="flex flex-col justify-center items-center h-full">
             <img src={msk_logo} className="w-[70px] mb-[20px]"></img>
             <h1 className="text-2xl font-semibold text-blue_color mb-[30px]">Personal Details</h1>

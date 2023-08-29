@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { msk_logo, contact } from "../../assets"
 import { Input } from "../shared/Input"
 import Swal from 'sweetalert2'
+import { ellipse1, ellipse2, ellipse3, ellipse4, ellipse5, ellipse6 } from "../../assets/login-images"
 
 
 export const EnterpriseLogin = () => {
@@ -12,7 +13,13 @@ export const EnterpriseLogin = () => {
         <div className="hidden md:block">
           <img src={contact} className="w-[500px]"></img>
         </div>
-        <div className="flex-1 p-2 bg-login_bg h-full w-full">
+        <div className="flex-1 p-2 bg-login_bg h-full w-full relative">
+        <div className="absolute "><img src={ellipse1}></img></div>
+        <div className="hidden md:block absolute top-[69%] left-[20%]"><img src={ellipse2}></img></div>
+        <div className=" hidden md:block absolute top-[35%] "><img src={ellipse3}></img></div>
+        <div className="hidden md:block absolute right-0 bottom-[14%]"><img src={ellipse4}></img></div>
+        <div className="absolute right-0"><img src={ellipse5}></img></div>
+        <div className="hidden md:block absolute bottom-0"><img src={ellipse6}></img></div>
           <div className="flex flex-col justify-center items-center h-full">
           
             <img src={msk_logo} className="w-[70px] mb-[20px]"></img>

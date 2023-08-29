@@ -11,7 +11,7 @@ export const Passwordinput = (props: any) => {
       setPasswordVisible(!passwordVisible);
     };
   return (
-    <div className="w-[350px] h-fit border-2  border-blue_color mb-6">
+    <div className="h-fit border-2  border-blue_color mb-6">
     <div style={{ display: 'flex', justifyContent:"space-between"}} className="p-2 placeholder:text-blue_color placeholder:font-bold">
       <input
       className="bg-transparent outline-none p-2"
@@ -20,6 +20,7 @@ export const Passwordinput = (props: any) => {
         value={props.value}
         placeholder={props.placeholder}
         name={props.name}
+        style={props.style}
         required
       />
       <button onClick={togglePasswordVisibility} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>
