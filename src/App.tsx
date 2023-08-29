@@ -12,6 +12,7 @@ import { PasswordOTP } from './components/ForgotPasswordPage/PasswordOTP';
 import { NewPassword } from './components/ForgotPasswordPage/NewPassword';
 import { Passwordchanged } from './components/ForgotPasswordPage/Passwordchanged';
 import { ChangePasswordAfterLogin } from './components/loginPage/ChangePasswordAfterLogin';
+import { EnterpriseLogin } from './components/loginPage/EnterpriseLogin';
 
 function App() {
   
@@ -31,7 +32,8 @@ function App() {
       <Route path='/passwordotp' element={<PasswordOTP />}/>
       <Route path='/newpassword' element={<NewPassword />}/>
       <Route path='/passwordchanged' element={<Passwordchanged />}/>
-      <Route path='/changepassword' element={<ChangePasswordAfterLogin />}/>
+      <Route path='/changepassword' element={<ChangePasswordAfterLogin  />}/>
+      <Route path='/enterprisesignup' element={<EnterpriseLogin  />}/>
     </Routes>
     </BrowserRouter>
     </>

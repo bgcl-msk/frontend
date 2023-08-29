@@ -43,6 +43,15 @@
 
 
   /* RESPONSIVE DESIGN */
+  @media screen and (max-width:415px){
+      #tut{
+        height: 350px;
+      }
+      #tut1{
+        height: 350px;
+        padding-left: 10px;
+      }
+  }
   @media screen and (max-width:985px){
     
     .msk_simp_logo{

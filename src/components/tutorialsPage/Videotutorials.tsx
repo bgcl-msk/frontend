@@ -6,7 +6,7 @@ export const Videotutorials = () => {
         {
             VideoTutorial.map((VideoTutorial) => (
         <div className=" flex flex-col justify-center items-center">
-            <video width="400px" height="400px" className="border" src={VideoTutorial.video_link}></video>
+            <video width="350px" height="400px" className="border" src={VideoTutorial.video_link}></video>
             <p>{VideoTutorial.title}</p>
         </div>
             ))

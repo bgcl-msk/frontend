@@ -31,7 +31,7 @@ export const Footer = () => {
         <div>
         <p><b>Company</b></p>
         <ul className='py-3'>
-            <li className='py-3'>About</li>
+           <Link to="/about"><li className='py-3'>About</li></Link> 
             <li className='py-3'>Features</li>
             <li className='py-3'>Works</li>
             <li className='py-3'>Careers</li>
@@ -50,7 +50,7 @@ export const Footer = () => {
         <p><b>Resources</b></p>
         <ul className='py-3'>
             <li className='py-3'>Free e-books</li>
-            <li className='py-3'>Development Tutorial</li>
+           <Link to='/tutorial'><li className='py-3'>Development Tutorial</li></Link> 
             <li className='py-3'>Blog</li>
             <li className='py-3'>Youtube</li>
         </ul>

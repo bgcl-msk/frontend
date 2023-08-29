@@ -4,9 +4,11 @@ import { Input } from "../shared/Input"
 
 export const ContactPage = () => {
   return (
-    <div className="pt-[8rem]">
+    <div className="pt-[8rem] flex flex-col items-center">
+      <div className="w-[350px] md:w-full text-center">
         <h1 className="text-center text-3xl text-blue_color font-bold mb-6">ContactPage</h1>
         <p className="text-center text-lg text-blue_color font-bold mb-6">Any questions or remarks? Just write to us a message!</p>
+      </div>
 
         <div className="flex justify-center  m-auto items-center bg-navbar_bg h-fit">
           <div className="hidden md:block">
@@ -36,7 +38,7 @@ export const ContactPage = () => {
               </div>
               <div className="text-left">
                 <label>Message</label>
-                <Input style={{width:"100%", height:"200px"}}/>
+                <textarea style={{width:"100%", height:"200px", border:"2px solid #1D4771", paddingLeft:"5px"}}/>
               </div>
               <button className="p-3 text-center bg-blue_color text-white">Send Message</button>
             </form>

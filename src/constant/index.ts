@@ -81,6 +81,7 @@ const Pricing = [
             "24 hours support",
         ],
         btn_words:"Start Free Trail",
+        href:"/signup",
     },
     {
         title: "Advanced",
@@ -97,6 +98,7 @@ const Pricing = [
             "Shared Infrastructure",
         ],
         btn_words:"Start Free Trail",
+        href:"/signup",
     },
     {
         title: "Enterprise",
@@ -114,6 +116,7 @@ const Pricing = [
             "Dedicated Infrastructure",
         ],
         btn_words:"Contact Us",
+        href:"/enterprisesignup",
     },
 ];
 
