@@ -5,8 +5,8 @@ import { ellipse1, ellipse2, ellipse3, ellipse4, ellipse5, ellipse6, passwordcha
 export const Passwordchanged = () => {
   return (
     <div className="w-full border h-screen md:h-[965px] flex justify-center items-center md:pl-32">
-    <div className="hidden md:block" id="">
-      <img src={passwordchanged} className="w-[500px] h-fit"></img>
+    <div className="hidden md:block" id="changed">
+      <img src={passwordchanged} className="w-[500px] h-[100%]"></img>
     </div>
     <div className="flex-1 p-2 bg-login_bg h-full relative">
     <div className="absolute "><img src={ellipse1}></img></div>
