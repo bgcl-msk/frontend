@@ -4,8 +4,8 @@ import { passwordchanged, passwordchanged_success } from "../../assets/login-ima
 
 export const Passwordchanged = () => {
   return (
-    <div className="w-full border h-[965px] flex justify-center items-center pl-32">
-    <div className="" id="">
+    <div className="w-full border h-screen md:h-[965px] flex justify-center items-center md:pl-32">
+    <div className="hidden md:block" id="">
       <img src={passwordchanged} className="w-[500px] h-fit"></img>
     </div>
     <div className="flex-1 p-2 bg-login_bg h-full">

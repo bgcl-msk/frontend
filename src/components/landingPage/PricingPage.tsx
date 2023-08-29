@@ -1,5 +1,6 @@
 import { Pricing } from "../../constant"
 import { greentick } from "../../assets"
+import { Link } from "react-router-dom"
 
 export const PricingPage = () => {
   return (
@@ -26,7 +27,7 @@ export const PricingPage = () => {
                     ))}
                 </ul>
                 <div className="flex justify-center mt-5">
-                <button className='h-fit rounded-md px-10 py-2 cursor-pointer border-[1px] border-black bg-white text-black hover:bg-black hover:text-white'>{Pricing.btn_words}</button>
+               <Link to={Pricing.href}><button className='h-fit rounded-md px-10 py-2 cursor-pointer border-[1px] border-blue_color bg-white text-blue_color hover:bg-blue_color hover:text-white'>{Pricing.btn_words}</button></Link> 
                 </div>
             </div>
             ))}

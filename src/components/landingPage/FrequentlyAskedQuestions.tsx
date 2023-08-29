@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { FAQs } from "../../constant"
 
 
@@ -34,7 +35,7 @@ export const FrequentlyAskedQuestions = () => {
         </h1>
         </div>
         <div className='h-fit w-fit px-8 p-2 cursor-pointer bg-blue_color text-white'>
-            <p>Contact Us</p>         
+           <Link to="/contact"><p>Contact Us</p> </Link>         
         </div>
       </div>
     </>

@@ -31,7 +31,7 @@ function App() {
       <Route path='/passwordotp' element={<PasswordOTP />}/>
       <Route path='/newpassword' element={<NewPassword />}/>
       <Route path='/passwordchanged' element={<Passwordchanged />}/>
-      <Route path='/changepassword' element={<ChangePasswordAfterLogin />}/>
+      <Route path='/changepassword' element={<ChangePasswordAfterLogin  />}/>
     </Routes>
     </BrowserRouter>
     </>

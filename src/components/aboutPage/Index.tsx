@@ -10,7 +10,7 @@ export const AboutIndex = () => {
   return (
     <>
     <Navbar_two />
-    <div className="w-[full] h-[fit] text-center">
+    <div className="w-[full] h-[fit] text-center pt-[110px]">
         <h1 className="text-3xl font-bold p-2">About</h1>
 
         <div className="flex p-5 shadow-md md:shadow-none">
