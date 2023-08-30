@@ -4,7 +4,7 @@ import { Application_Features } from "../../constant"
 export const SomeFeatures = () => {
   return (
  <>
- <div className="flex justify-center p-[8rem]" id="feature">
+ <div className="flex justify-center p-[8rem] border" id="feature">
       <div>
         <p className="text-center text-3xl pb-[50px] font-bold">
             Some Core Features <br></br> that help you run your business

@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    overflow-x: inherit;
   }
   #login:hover{
     background-color:  #1D4771;
@@ -44,6 +45,8 @@
   height: 100%;
   }
 
+
+
   /* RESPONSIVE DESIGN */
   @media screen and (max-width:415px){
       #tut{
@@ -53,6 +56,33 @@
         height: 350px;
         padding-left: 10px;
       }
+  }
+  @media screen and (max-width:1281px){
+    .customer_card{
+      grid-template-columns: auto;
+      padding: 10px;
+      /* width: 70%; */
+    }
+    .feature-card{
+      grid-template-columns: auto auto;
+      padding: 10px;
+      width: 50rem;
+    }
+    #keepingtrack{
+      margin-left: 100px;
+    }
+  }
+  @media screen and (max-width:1025px){
+    .customer_card{
+      grid-template-columns: auto;
+      padding: 10px;
+      /* width: 70%; */
+    }
+    .feature-card{
+      grid-template-columns: auto auto;
+      padding: 10px;
+      width: 50rem;
+    }
   }
   @media screen and (max-width:985px){
     
@@ -70,12 +100,22 @@
     .FAQ_card, .customer_card{
       grid-template-columns: auto;
       padding: 10px;
-      width: 70%;
+      /* width: 70%; */
     }
     #footer_div_two{
       flex-wrap: wrap;
     }
-  
+    .msk_simpe{
+      display: flex;
+      justify-content: center;
+    }
+    #keepingtrack{
+      margin-left: 1px;
+    }
+    #downloadtrack{
+      margin-left: 1px;
+      text-align: center;
+    }
   }
   @media screen and (max-width:801px){
     .feature-card{
