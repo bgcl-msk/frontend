@@ -8,10 +8,10 @@ export const CustomerTestimonials = () => {
           <b>Customers Testimonials</b>
         </h1>
       </div>
-      <div className="grid gap-[2rem] grid-cols-2 w-1/2 m-auto customer_card mb-5">
+      <div className="grid gap-[2rem] grid-cols-2 md:w-[50%] m-auto customer_card mb-5">
         {
             Testimonies.map((Testimony)=>(
-        <div className='shadow w-full p-5 hover:border-2 border-box_color '>
+        <div className='shadow p-5 hover:border-2 border-box_color md:w-[30rem]'>
             <div className='my-2'>
             <i className="fa-solid fa-star text-amber-400"></i>
             <i className="fa-solid fa-star text-amber-400"></i>

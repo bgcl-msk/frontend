@@ -4,9 +4,9 @@ import { KeepingTracks } from "../../constant";
 export const KeepingTrack = () => {
   return (
     <>
-      <div className=" h-fit p-[4rem] flex m-auto text-left text-box_color msk_simp">
-        <div className=" m-auto msk_simp_words flex-1">
-          <div className="md:w-[70%] md:ml-[300px]">
+      <div className=" h-fit p-[2rem] flex m-auto text-left text-box_color msk_simpe">
+        <div className=" m-auto msk_simp_words flex-1 msk_simpe">
+          <div className="md:w-[70%] md:ml-[300px]" id="keepingtrack">
             <p className="text-3xl my-6">
               <b>Keeping track of your expenses is made easy with this app</b>
             </p>
@@ -19,7 +19,7 @@ export const KeepingTrack = () => {
             </p>
             <div className="grid gap-x-[300px] gap-y-2 grid-cols-2 w-1/2 mt-4 FAQ_card">
               {KeepingTracks.map((words) => (
-                <div className="w-[300px] h-fit  p-2">
+                <div className="w-[300px] h-fit p-2">
                   <div className="flex">
                     <img src={words.icon} className="h-fit"></img>
                     <div>

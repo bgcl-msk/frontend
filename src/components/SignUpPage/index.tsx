@@ -32,9 +32,8 @@ export const SignUpindex = () => {
             <Input style={{width:"100%"}} placeholder="Full Name" type="text"   required/>
             <Input style={{width:"100%"}} placeholder="Date of Birth" type="date" required/>
             <div className="w-[100%] p-4 border-2 border-blue_color mb-5 ">
-                <label htmlFor="gender">Gender: </label>
+            
                 <select id="gender" value={selectedGender} onChange={handleGenderChange} className="bg-transparent">
-                  <option value="" disabled>Select...</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                 </select>
@@ -47,7 +46,10 @@ export const SignUpindex = () => {
             <div className="md:text-left w-[350px] md:w-[450px] cursor-pointer">
             <small><i>By signing up, You are agree to our <u className="text-blue-700">Terms & Conditions</u></i></small><br></br>
             </div>
-            <div className="flex  justify-end mt-6 w-[350px] md:w-[450px]">
+            <div className="flex  justify-between mt-6 w-[350px] md:w-[450px]">
+            <Link to='/login'><span className="rounded-[50%] w-[45px] h-[45px] bg-blue_color text-white flex justify-center items-center cursor-pointer">
+             <i className="fa-sharp fa-solid fa-arrow-left"></i>   
+              </span></Link>
               <Link to='/signup-next'><button className="bg-blue_color text-white px-8 py-3 rounded-md flex">Next</button></Link>
             </div>
             <div className="text-right w-[350px] md:w-[450px] mt-4">

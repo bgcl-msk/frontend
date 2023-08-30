@@ -80,7 +80,7 @@ const Pricing = [
             "Shared Infrastructure",
             "24 hours support",
         ],
-        btn_words:"Start Free Trail",
+        btn_words:"Start Free Trial",
         href:"/signup",
     },
     {
@@ -97,7 +97,7 @@ const Pricing = [
             "Advanced logging",
             "Shared Infrastructure",
         ],
-        btn_words:"Start Free Trail",
+        btn_words:"Start Free Trial",
         href:"/signup",
     },
     {

@@ -16,7 +16,7 @@ export const NewPassword = () => {
         <div className="absolute top-[38%] "><img src={ellipse3}></img></div>
         <div className="absolute right-0 bottom-[16%]"><img src={ellipse4}></img></div>
         <div className="absolute right-0"><img src={ellipse5}></img></div>
-        <div className="absolute bottom-0"><img src={ellipse6}></img></div>
+        <div className="absolute bottom-0"><img src={ellipse6} width={"400px"}></img></div>
           <div className="flex flex-col justify-center items-center h-full">
             <img src={msk_logo} className="w-[70px] mb-[20px]"></img>
             <h1 className="text-2xl font-semibold text-blue_color mb-[30px]">New Password</h1>
@@ -26,7 +26,10 @@ export const NewPassword = () => {
             <Passwordinput placeholder="Confirm New Password" />
              </div>
 
-            <div className="flex justify-end mt-6 w-[350px] md:w-[450px]">
+            <div className="flex justify-between mt-6 w-[350px] md:w-[450px]">
+            <div className="rounded-[50%] w-[45px] h-[45px] bg-blue_color text-white flex justify-center items-center cursor-pointer">
+             <Link to='/passwordotp'><i className="fa-sharp fa-solid fa-arrow-left"></i> </Link>  
+              </div>
              <Link to='/passwordchanged'><button className="bg-blue_color text-white px-8 py-3 rounded-md flex">Next</button></Link> 
             </div>
             </div> 

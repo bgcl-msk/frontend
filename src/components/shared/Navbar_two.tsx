@@ -7,10 +7,10 @@ import { msk_logo } from "../../assets";
 export const Navbar_two = () => {
     let [open, setOpen] = useState(false);
     return (
-      <div className='flex flex-wrap justify-between fixed bg-navbar_bg w-full items-center p-7 z-50'>
+      <div className='flex flex-wrap justify-between fixed bg-navbar_bg w-full items-center py-5 z-50'>
       <div className='flex items-center'>
-          <img src={msk_logo} alt='logo' className='w-12 mx-2'></img>
-          <h1 className='text-3xl text-blue_color'><b>Mystorekeeper</b></h1>
+          <img src={msk_logo} alt='logo' className='w-12 mx-1'></img>
+          <h1 className='text-2xl md:text-3xl text-blue_color'><b>Mystorekeeper</b></h1>
       </div>
       <div className={`nav-links mr-[400px] mt-2 md:block ${open ? 'flex':'hidden'}`}>   
       
@@ -19,9 +19,9 @@ export const Navbar_two = () => {
       <Link to='/about' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>About</Link>
       <Link to='/tutorial' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Tutorials</Link>
       <Link to='/contact' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Contact</Link>
-      <Link to='/#pricing' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Pricing</Link>
-      <Link to='/#feature' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Feature</Link>
-      <Link to='/#faq' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>FAQ</Link>
+      <Link to='/pricing' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Pricing</Link>
+      <Link to='/feature' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Feature</Link>
+      <Link to='/faq' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>FAQ</Link>
           </ul>
       </div>
       <div className={`px-4 mt-2 nav-btn md:flex ${open ? 'flex':'hidden'}`}>

@@ -13,7 +13,7 @@ export const FrequentlyAskedQuestions = () => {
           Here are some frequently asked questions.
         </p>
       </div>
-      <div className="grid gap-[2rem] grid-cols-2 w-1/2 m-auto FAQ_card">
+      <div className="grid gap-[2rem] grid-cols-2 md:w-[50%] m-auto FAQ_card">
           {FAQs.map((FAQ) => (
             <div className="group border w-full p-5 cursor-pointer">
             <div className="flex justify-between">
