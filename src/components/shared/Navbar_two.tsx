@@ -19,9 +19,9 @@ export const Navbar_two = () => {
       <Link to='/about' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>About</Link>
       <Link to='/tutorial' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Tutorials</Link>
       <Link to='/contact' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Contact</Link>
-      <Link to='/#pricing' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Pricing</Link>
-      <Link to='/#feature' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Feature</Link>
-      <Link to='/#faq' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>FAQ</Link>
+      <Link to='/pricing' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Pricing</Link>
+      <Link to='/feature' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>Feature</Link>
+      <Link to='/faq' className='px-[20px] hover:text-amber-400 duration-500 font-bold'>FAQ</Link>
           </ul>
       </div>
       <div className={`px-4 mt-2 nav-btn md:flex ${open ? 'flex':'hidden'}`}>
