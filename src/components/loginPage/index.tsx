@@ -5,6 +5,7 @@ import { Input } from "../shared/Input"
 import { Passwordinput } from "../shared/passwordinput"
 
 
+
 export const Loginindex = () => {
   return (
     <div className="w-full border h-screen md:h-[965px] flex justify-between items-center md:pl-32">
@@ -17,7 +18,7 @@ export const Loginindex = () => {
         <div className="absolute top-[38%] "><img src={ellipse3}></img></div>
         <div className="absolute right-0 bottom-[16%]"><img src={ellipse4}></img></div>
         <div className="absolute right-0"><img src={ellipse5}></img></div>
-        <div className="absolute bottom-0"><img src={ellipse6}></img></div>
+        <div className="absolute bottom-0"><img src={ellipse6} width={"400px"}></img></div>
         
           <div className="flex flex-col justify-center items-center h-full">
           
@@ -30,11 +31,16 @@ export const Loginindex = () => {
             </div>
 
             <div className="text-left w-[350px] md:w-[450px] flex justify-between cursor-pointer text-blue-700">
-            <Link to="/forgotpassword"><small><i><u>Forgot Password?</u></i></small></Link><br></br>
-            <Link to='/'><small><i>Home</i></small></Link>
-            <Link to='/signup'><small><i> Sign Up</i></small></Link>
+            <Link to="/forgotpassword"><small><i><u>Forgot Password?</u></i></small></Link>
+            <div>
+            <Link to='/'><small className="mr-3"><i><u>Home</u></i></small></Link>
+            <Link to='/signup'><small><i><u>Sign Up</u></i></small></Link>
             </div>
-            <div className="flex justify-end mt-6 w-[350px] md:w-[450px]">
+            </div>
+            <div className="flex justify-between mt-6 w-[350px] md:w-[450px]">
+            <div className="rounded-[50%] w-[45px] h-[45px] bg-blue_color text-white flex justify-center items-center cursor-pointer">
+             <Link to='/'><i className="fa-sharp fa-solid fa-arrow-left"></i> </Link>  
+              </div>
             <Link to='/changepassword'><button className="bg-blue_color text-white px-8 py-3 rounded-md flex"><img src={login_icon} className="mr-2"></img>Sign In</button></Link>  
             </div>
             </div> 

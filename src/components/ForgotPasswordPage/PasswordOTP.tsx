@@ -17,7 +17,7 @@ export const PasswordOTP = () => {
         <div className="absolute top-[38%] "><img src={ellipse3}></img></div>
         <div className="hidden md:block absolute right-0 bottom-[16%]"><img src={ellipse4}></img></div>
         <div className="absolute right-0 top-28"><img src={ellipse5}></img></div>
-        <div className="hidden md:block absolute bottom-0"><img src={ellipse6}></img></div>
+        <div className="hidden md:block absolute bottom-0"><img src={ellipse6} width={"400px"}></img></div>
           <div className="flex flex-col justify-center items-center h-full">
             <div className="flex items-center">
             <img src={msk_logo} className="w-[70px] mb-[20px]"></img>
